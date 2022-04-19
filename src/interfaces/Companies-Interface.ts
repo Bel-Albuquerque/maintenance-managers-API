@@ -7,4 +7,4 @@ export const CompaniesInterface = z.object({
   password: z.string().min(6),
 });
 
-export type Companies = z.infer<typeof CompaniesInterface>;
+export type Companie = z.infer<typeof CompaniesInterface>;
