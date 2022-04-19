@@ -2,7 +2,7 @@ import { Request, Response } from 'express';
 import Service from '../services';
 import ControllerErrors from '../interfaces/errors/Controller-Errors';
 import StatusCode from '../interfaces/Status-Code';
-import { RequestWithBody } from '../interfaces/Controller-interfaces';
+import { RequestWithBody } from '../interfaces/Controller-Interfaces';
 import { ResponseError } from '../interfaces/errors/Errors-Interface';
 
 abstract class Controller<T> {
