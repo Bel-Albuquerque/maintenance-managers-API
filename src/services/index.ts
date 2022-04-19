@@ -2,7 +2,7 @@ import { ZodError } from 'zod';
 import { Model } from '../interfaces/Model-Interface';
 
 export interface ServiceError {
-  error: ZodError;
+  error: ZodError | string;
 }
 
 abstract class Service<T> {
