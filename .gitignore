@@ -1,1 +1,10 @@
 node_modules
+testes.js
+src/interfaces/Units-Interface.ts
+src/models/User-Model.ts
+src/interfaces/Units-Interface.ts
+coverage/
+.nyc_output/
+.eslintignore
+package.json
+package-lock.json
