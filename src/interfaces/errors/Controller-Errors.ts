@@ -1,8 +1,8 @@
-enum ControllerErrors {
-  internal = 'Internal Server Error',
-  notFound = 'Object not found',
-  requiredId = 'Id is required',
-  badRequest = 'Bad request',
+const ControllerErrors = {
+  internal: {error: 'Internal Server Error'},
+  notFound: { error: 'Object not found' },
+  requiredId: { error: 'Id is required'},
+  badRequest: {error: 'Bad request'},
 }
 
 export default  ControllerErrors
